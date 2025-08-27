@@ -74,8 +74,18 @@ small{
 .par1{
     margin: auto;
     width: fit-content;
+    text-align: center;
+}
+.par2{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    padding-top: 40px;
 }
 .par1 h3{
+    font-size: 28px;
+}
+.par2 h3{
     font-size: 28px;
 }
 .box{
@@ -106,6 +116,20 @@ small{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+}
+.star{
+    color: rgb(255,165,0);
+}
+.cardflex{
+    display: flex;
+    justify-content: space-between;
+}
+.little{
+    font-size: 13px;
+}
+.little1{
+    font-size: 13px;
+    font-weight: bold;
 }
 
 
