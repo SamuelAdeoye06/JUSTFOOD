@@ -227,9 +227,9 @@
     color: rgb(85,79,79);
     margin-left: 10px;
 }
-footer{
+.footer{
     background-color: rgb(162,125,82);
-    padding: 10px 250px;
+    padding: 10px 150px;
 }
 .nav-item1{
     font-size: 14px;
@@ -237,7 +237,66 @@ footer{
 .nav-link .nav1{
     color: rgb(51,45,46)!important;
 }
-
+.padleft{
+    margin-left: 100px;
+}
+.color{
+    color: rgb(51,74,71)!important;
+    text-decoration: none;
+}
+.stop{
+    text-decoration: none;
+    color: rgb(51,74,71);
+    font-size: 15px;
+}
+.stop:hover{
+    color: rgb(51,74,71);
+}
+.inflex{
+    display: flex;
+    gap: 10px;
+}
+.footy{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.yellow:hover{
+    background-color: rgb(255,165,0);
+}
+.yellow{
+    background-color: rgba(255, 166, 0, 0);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.socials{
+    font-size: 14px;
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+    margin: auto;
+    padding-top: 40px;
+}
+.lastpart{
+    padding: 20px 0px;
+    background-color: rgb(82,55,25);
+}
+.whit{
+    color: white;
+    font-size: 16px;
+    width: fit-content;
+    height: 20px;
+    margin: auto;
+    font-weight: 400;
+}
+.awhit{
+    color: white;
+    text-decoration: none;
+}
 
 /* responsiveness */
 /* mobile */
@@ -293,6 +352,14 @@ footer{
     .sec4 div{
         margin: auto;
     }
+    .footy{
+        flex-direction: column;
+        margin: auto;
+        width: fit-content;
+    }
+    .footer{
+        padding: 0px 20px;
+    }
 }
 /* tablet */
 @media screen and (min-width:481px) and (max-width:768px){
@@ -343,6 +410,12 @@ footer{
     .sec4{
         padding: 0px 20px;
     }
+    .footer{
+        padding: 0px 30px;
+    }
+    .padleft{
+        margin-left: 0;
+    }
 }
 /* larger tablets */
 @media screen and (min-width:769px) and (max-width:1080px){
@@ -390,5 +463,11 @@ footer{
     }
     .sec4{
         padding: 0px 20px;
+    }
+    .footer{
+        padding: 0px 30px;
+    }
+    .padleft{
+        margin-left: 0;
     }
 }
